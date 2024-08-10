@@ -10,6 +10,7 @@ from slack_bolt import App
 openai_api_key = os.environ['OPENAI_API_KEY']
 slack_app_token = os.environ['SLACK_BOT_APP_TOKEN']
 slack_bot_token = os.environ['SLACK_API_KEY']
+
 # Optional Environment variables
 openai_engine = os.environ.get('OPENAI_ENGINE', 'gpt-3.5-turbo')
 openai_max_tokens = int(os.environ.get('OPENAI_MAX_TOKENS', '1024'))
