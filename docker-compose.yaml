@@ -1,7 +1,7 @@
 version: '3.9'
 services:
   gptchatbot:
-    image: writewise-code/writewise-bot:main
+    image: writewise-code/writewise-bot@main
     container_name: gptchatbot
     build: .
     restart: always
